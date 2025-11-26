@@ -1,9 +1,1 @@
-# SQL
 
-
-# LEETCODE-175: Write a solution to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.
-# Program:
-```
-select p.firstName,p.lastName,a.city,a.state from Person as p
-left join Address as a on p.personId=a.personId;
-```
